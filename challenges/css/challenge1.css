@@ -1,0 +1,53 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+
+li, a, button {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+header{
+    padding: 30px;
+    background-color: darkgrey;
+/* three values needd here */
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.nav__links{
+    /* one value needed here */
+}
+
+.nav__links li{
+   /* One value needed here */
+}
+
+.nav__links li a {
+   transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover{
+    color: #0088a9;
+    cursor: pointer;
+ }
+
+ button{
+     padding: 9px 25px;
+     background-color: rgba(0,136,169,1);
+     border: none;
+     border-radius: 50px;
+     cursor: pointer;
+     transition: all 0.3s ease 0s;
+ }
+
+ button:hover{
+    background-color: rgba(0,136,169,0.7);
+ }
+

@@ -1,0 +1,58 @@
+.example{
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: darkviolet;
+    
+}.search-form {
+    margin: 0 auto;
+}
+
+
+button[type="submit"] {
+    box-sizing: border-box;
+    border-radius: 0px 2px 2px 0px;
+    background: #8B798C;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: white;
+    padding: 0.35em 0.75em;
+    border: none;
+    font-size: 1.1em;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background: #C17CCF;
+}
+
+/* this is triggered when the screen is less than 600px */
+@media (max-width: 600px) {
+} 
+
+input[type="search"] {
+    box-sizing: border-box;
+    background: #E9E9E9;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0.35em 0.75em;
+    border: none;
+    font-size: 1.1em;
+    text-decoration: none;
+    line-height: normal;
+    max-height: 3em;
+}
+
+/*fill these three in for display on same line and drop to new line*/
+.search-form {
+ 
+}
+
+input[type="search"] {
+
+}
+
+button[type="submit"] {
+
+}

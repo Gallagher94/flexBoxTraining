@@ -1,0 +1,22 @@
+.call-outs-container {
+    background-color:darkolivegreen;
+
+    max-width: 1400px;
+    margin: 40px auto 0 auto;
+}
+
+.call-out {
+    box-sizing: border-box;
+    background-color: red;
+    padding: 20px;
+}
+   
+
+/* When the screen is larger than 900 px it will apply this style
+We do this so mobile / smaller screens get the defult styles above and 
+our desktop gets the styls defined here */
+@media(min-width: 900px) {
+    .call-outs-container {
+      
+    }
+}
