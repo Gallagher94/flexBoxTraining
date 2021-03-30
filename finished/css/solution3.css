@@ -1,6 +1,9 @@
 .call-outs-container {
     max-width: 1400px;
     margin: 40px auto 0 auto;
+    padding: 30px;
+    background-color:rgb(161, 235, 33);
+
     /* Can add align-item so they all use own height not same */
 }
 
