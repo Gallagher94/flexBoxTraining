@@ -1,0 +1,9 @@
+LearnFlexBox Notes
+
+display:flex ( set on container )
+flex - value to magnify content by from flex basis
+order - want to change the order of elements in the flex container.
+flex-direction ( set on container )
+justify-content - Align on the Main Axis ( set on container )
+flex-basis - starting / target width of item
+align-items - Align on the Cross Axis ( set on container )
